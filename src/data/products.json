@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Azules",
+    "tags": "1"
+  },
+  {
+    "id": 2,
+    "name": "Rosas",
+    "tags": "1/4"
+  },
+  {
+    "id": 3,
+    "name": "Navidad",
+    "tags": "3/2"
+  },
+  {
+    "id": 4,
+    "name": "Calamar",
+    "tags": "2"
+  }
+]
