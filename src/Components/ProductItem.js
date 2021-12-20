@@ -2,7 +2,6 @@ import React from "react";
 
 export const ProductItem = ({ name, id, tags }) => {
   let picName = "product-" + id + ".jpg";
-  const categories = tags.split("/");
   return (
     <div className="card">
       <img
