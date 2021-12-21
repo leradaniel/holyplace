@@ -14,7 +14,7 @@ const HolyPlaceApp = () => {
   };
   // Estado para compartir información
   const [filters, setFilters] = useState(initFilters);
-  console.log(filters);
+  //console.log(filters);
 
   return (
     <>

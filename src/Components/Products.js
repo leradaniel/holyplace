@@ -14,15 +14,23 @@ const Products = () => {
     if (checkMustFilter()) {
       // Se recorren los productos y se filtran los activos:
       let filteredProducts = ProductsJson.filter((product) => {
+        // Valor de retorno incial
+        let returnValue = true;
         // Array con todas las categorias del producto actual:
-        const categories = product.tags.split("/");
-        // Se recorren todas las categorias del producto:
-        for (let catIndex of categories) {
-          // Si la categoria recorrida está activa en el contexto,
-          //se agrega el producto a los productos activos:
-          if (filters[catIndex - 1] === true) return true;
+        const productCategories = product.tags.split("/");
+        // Se recorren todas las categorias del filtrado:
+        for (let filter in filters) {
+          // Si la categoria del filtrado está activa:
+          if (filters[filter] === true) {
+            // Se obtiene el valor real:
+            let catNum = (Number(filter) + 1).toString();
+            // Se deshabilita si el producto no tiene la categoria activa:
+            if (!productCategories.includes(catNum)) {
+              returnValue = false;
+            }
+          }
         }
-        return false;
+        return returnValue;
       });
       // Se devuelven los productos filtrados:
       return filteredProducts;
