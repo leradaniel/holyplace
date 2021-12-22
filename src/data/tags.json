@@ -1,18 +1,142 @@
 [
   {
     "id": 1,
-    "name": "Chocolate"
+    "name": "Amarillo",
+    "position": 0
   },
   {
     "id": 2,
-    "name": "Frutilla"
+    "name": "Azul",
+    "position": 0
   },
   {
     "id": 3,
-    "name": "Menta"
+    "name": "Blanco",
+    "position": 0
   },
   {
     "id": 4,
-    "name": "Durazno"
+    "name": "Bordó",
+    "position": 0
+  },
+  {
+    "id": 5,
+    "name": "Celeste",
+    "position": 0
+  },
+  {
+    "id": 6,
+    "name": "Dorado",
+    "position": 0
+  },
+  {
+    "id": 7,
+    "name": "Gris",
+    "position": 0
+  },
+  {
+    "id": 8,
+    "name": "Marrón",
+    "position": 0
+  },
+  {
+    "id": 9,
+    "name": "Naranja",
+    "position": 0
+  },
+  {
+    "id": 10,
+    "name": "Negro",
+    "position": 0
+  },
+  {
+    "id": 11,
+    "name": "Plateado",
+    "position": 0
+  },
+  {
+    "id": 12,
+    "name": "Rojo",
+    "position": 0
+  },
+  {
+    "id": 13,
+    "name": "Rosa",
+    "position": 0
+  },
+  {
+    "id": 14,
+    "name": "Verde",
+    "position": 0
+  },
+  {
+    "id": 15,
+    "name": "Violeta",
+    "position": 0
+  },
+  {
+    "id": 16,
+    "name": "Mixes",
+    "position": 0
+  },
+  {
+    "id": 17,
+    "name": "Formas grandes",
+    "position": 0
+  },
+  {
+    "id": 18,
+    "name": "Animales",
+    "position": 0
+  },
+  {
+    "id": 19,
+    "name": "Deportes",
+    "position": 0
+  },
+  {
+    "id": 20,
+    "name": "Disney",
+    "position": 0
+  },
+  {
+    "id": 21,
+    "name": "Infantiles",
+    "position": 0
+  },
+  {
+    "id": 22,
+    "name": "Juegos",
+    "position": 0
+  },
+  {
+    "id": 23,
+    "name": "Ocasiones especiales",
+    "position": 0
+  },
+  {
+    "id": 24,
+    "name": "Oficios",
+    "position": 0
+  },
+  {
+    "id": 25,
+    "name": "Pelis / Series",
+    "position": 0
+  },
+  {
+    "id": 26,
+    "name": "Plantas",
+    "position": 0
+  },
+  {
+    "id": 27,
+    "name": "Superhéroes",
+    "position": 0
+  },
+  {
+    "id": 28,
+    "name": "Temáticos",
+    "position": 0
   }
 ]

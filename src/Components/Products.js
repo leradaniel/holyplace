@@ -1,12 +1,19 @@
 import { ProductItem } from "./ProductItem";
 import ProductsJson from "../data/products.json";
 import { Filter } from "./Filter";
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { FiltersContext } from "../Components/FiltersContext";
+import { Paginacion } from "./Paginacion";
 
 const Products = () => {
   // Se accede a la información del contexto:
   const { filters } = useContext(FiltersContext);
+
+  // Estado con las páginas:
+  const [actualPage, setActualPage] = useState(1);
+
+  // Elementos que se muestran por página:
+  const [totalProductsPerPage, setTotalProductsPerPage] = useState(9);
 
   // Función que devuelve los productos que se van a mostrar:
   const getProducts = (productList) => {
@@ -52,8 +59,17 @@ const Products = () => {
   // Se establecen los productos actuales (con filtrado previo si hace falta):
   let products = getProducts(ProductsJson);
 
+  const getTotalPages = () => {
+    return Math.ceil(products.length / totalProductsPerPage);
+  };
+
+  let prodcutsPerPage = products.slice(
+    (actualPage - 1) * totalProductsPerPage,
+    actualPage * totalProductsPerPage
+  );
+
   // Se preparan los productos activos que van a ser renderizados:
-  let productsContainer = products.map((product) => {
+  let productsContainer = prodcutsPerPage.map((product) => {
     const categories = product.tags.split("/");
     return (
       <ProductItem
@@ -68,7 +84,20 @@ const Products = () => {
   return (
     <>
       <h1>Productos</h1>
-      <Filter />
+      <Paginacion
+        page={actualPage}
+        totalPages={getTotalPages()}
+        onChange={(page) => setActualPage(page)}
+      />
+      <Filter setActualPage={setActualPage} />
+      <button
+        onClick={() => {
+          setTotalProductsPerPage(18);
+          setActualPage(1);
+        }}
+      >
+        Mostrar 9 en vez de 3
+      </button>
       {productsContainer}
     </>
   );

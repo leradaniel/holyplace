@@ -1,0 +1,5 @@
+• Boton para resetear filtros
+• Dropdown para productos por pagina
+
+• Cuando se filtra, volver a la página 1
+• Si hay una sola página, no se muestra la paginación
