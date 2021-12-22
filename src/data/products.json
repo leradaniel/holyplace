@@ -1,22 +1,633 @@
 [
   {
     "id": 1,
-    "name": "Azules",
+    "name": "El juego del calamar",
     "tags": "1"
   },
   {
     "id": 2,
-    "name": "Rosas",
-    "tags": "1/4"
+    "name": "Among Us - Modelo 1",
+    "tags": "1/2"
   },
   {
     "id": 3,
-    "name": "Navidad",
-    "tags": "3/2/1"
+    "name": "Among Us - Modelo 2",
+    "tags": ""
   },
   {
     "id": 4,
-    "name": "Calamar",
-    "tags": "2/3"
+    "name": "Super Mario Bros.",
+    "tags": ""
+  },
+  {
+    "id": 5,
+    "name": "Harry Potter - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 6,
+    "name": "Harry Potter - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 7,
+    "name": "Harry Potter - Modelo 3",
+    "tags": ""
+  },
+  {
+    "id": 8,
+    "name": "Avengers",
+    "tags": ""
+  },
+  {
+    "id": 9,
+    "name": "El hombre araña (Spider-Man) - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 10,
+    "name": "El hombre araña (Spider-Man) - Modelo 2",
+    "tags": ""
+  }
+  ,
+  {
+    "id": 11,
+    "name": "Superman",
+    "tags": ""
+  },
+  {
+    "id": 12,
+    "name": "La Mujer Maravilla (Wonder Woman)",
+    "tags": ""
+  },
+  {
+    "id": 13,
+    "name": "Batman - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 14,
+    "name": "Batman - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 15,
+    "name": "La guerra de las galaxias (Star Wars)",
+    "tags": ""
+  },
+  {
+    "id": 16,
+    "name": "Mickey Mouse - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 17,
+    "name": "Mickey Mouse - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 18,
+    "name": "Mickey Mouse - Modelo 3",
+    "tags": ""
+  },
+  {
+    "id": 19,
+    "name": "Mickey Mouse - Modelo 4",
+    "tags": ""
+  },
+  {
+    "id": 20,
+    "name": "Minnie Mouse",
+    "tags": ""
+  },
+  {
+    "id": 21,
+    "name": "Toy Story",
+    "tags": ""
+  },
+  {
+    "id": 22,
+    "name": "Cenicienta",
+    "tags": ""
+  },
+  {
+    "id": 23,
+    "name": "Frozen - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 24,
+    "name": "Frozen - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 25,
+    "name": "Frozen - Modelo 3",
+    "tags": ""
+  },
+  {
+    "id": 26,
+    "name": "Bajo el mar - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 27,
+    "name": "Bajo el mar - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 28,
+    "name": "Bajo el mar - Modelo 3",
+    "tags": ""
+  },
+  {
+    "id": 29,
+    "name": "Bajo el mar - Modelo 4",
+    "tags": ""
+  },
+  {
+    "id": 30,
+    "name": "Bajo el mar - Modelo 5",
+    "tags": ""
+  },
+  {
+    "id": 31,
+    "name": "Pulpos",
+    "tags": ""
+  },
+  {
+    "id": 32,
+    "name": "Globos aerostáticos - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 33,
+    "name": "Globos aerostáticos - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 34,
+    "name": "Sandías",
+    "tags": ""
+  },
+  {
+    "id": 35,
+    "name": "Dinosaurios",
+    "tags": ""
+  },
+  {
+    "id": 36,
+    "name": "Peppa Pig",
+    "tags": ""
+  },
+  {
+    "id": 37,
+    "name": "Patrulla Canina (Paw Patrol)",
+    "tags": ""
+  },
+  {
+    "id": 38,
+    "name": "Lego",
+    "tags": ""
+  },
+  {
+    "id": 39,
+    "name": "Helados",
+    "tags": ""
+  },
+  {
+    "id": 40,
+    "name": "Espacio",
+    "tags": ""
+  },
+  {
+    "id": 41,
+    "name": "Autos / Autitos",
+    "tags": ""
+  },
+  {
+    "id": 42,
+    "name": "Conejos - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 43,
+    "name": "Conejos - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 44,
+    "name": "Conejos - Modelo 3",
+    "tags": ""
+  },
+  {
+    "id": 45,
+    "name": "Llamas y cactus",
+    "tags": ""
+  },
+  {
+    "id": 46,
+    "name": "Llamas",
+    "tags": ""
+  },
+  {
+    "id": 47,
+    "name": "Flamenco tropical - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 48,
+    "name": "Flamenco tropical - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 49,
+    "name": "Campanita (Tinker Bell)",
+    "tags": ""
+  },
+  {
+    "id": 50,
+    "name": "Mariposas - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 51,
+    "name": "Mariposas - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 52,
+    "name": "Unicornios - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 53,
+    "name": "Unicornios - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 54,
+    "name": "Arcoiris",
+    "tags": ""
+  },
+  {
+    "id": 55,
+    "name": "Viajes",
+    "tags": ""
+  },
+  {
+    "id": 56,
+    "name": "Fútbol - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 57,
+    "name": "Fútbol - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 58,
+    "name": "Básquet / Basketball;",
+    "tags": ""
+  },
+  {
+    "id": 59,
+    "name": "Bomberos",
+    "tags": ""
+  },
+  {
+    "id": 60,
+    "name": "Herramientas",
+    "tags": ""
+  },
+  {
+    "id": 61,
+    "name": "Útiles / Maestro",
+    "tags": ""
+  },
+  {
+    "id": 62,
+    "name": "Médico / Enfermero / Medicina",
+    "tags": ""
+  },
+  {
+    "id": 63,
+    "name": "Fortnite",
+    "tags": ""
+  },
+  {
+    "id": 64,
+    "name": "Mate - Modelo Fútbol (Varios colores)",
+    "tags": ""
+  },
+  {
+    "id": 65,
+    "name": "Mate - Modelo Clásico",
+    "tags": ""
+  },
+  {
+    "id": 66,
+    "name": "Cerveza",
+    "tags": ""
+  },
+  {
+    "id": 67,
+    "name": "Manos V de Victoria ✌🏼",
+    "tags": ""
+  },
+  {
+    "id": 68,
+    "name": "Fútbol - Diego Maradona / Lionel Messi",
+    "tags": ""
+  },
+  {
+    "id": 69,
+    "name": "Frida Kahlo",
+    "tags": ""
+  },
+  {
+    "id": 70,
+    "name": "TikTok",
+    "tags": ""
+  },
+  {
+    "id": 71,
+    "name": "Navidad",
+    "tags": ""
+  },
+  {
+    "id": 72,
+    "name": "Navidad Premium",
+    "tags": ""
+  },
+  {
+    "id": 73,
+    "name": "Año nuevo 2022",
+    "tags": ""
+  },
+  {
+    "id": 74,
+    "name": "Halloween",
+    "tags": ""
+  },
+  {
+    "id": 75,
+    "name": "Comunión",
+    "tags": ""
+  },
+  {
+    "id": 76,
+    "name": "Egresado",
+    "tags": ""
+  },
+  {
+    "id": 77,
+    "name": "Corazones (San Valentín) - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 78,
+    "name": "Corazones (San Valentín) - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 79,
+    "name": "Corazones (San Valentín) - Modelo 3",
+    "tags": ""
+  },
+  {
+    "id": 80,
+    "name": "Corazones (San Valentín) - Modelo 4",
+    "tags": ""
+  },
+  {
+    "id": 81,
+    "name": "Corazones (San Valentín) - Modelo 5",
+    "tags": ""
+  },
+  {
+    "id": 82,
+    "name": "Labios (Semana de la dulzura)",
+    "tags": ""
+  },
+  {
+    "id": 83,
+    "name": "Flores y cactus",
+    "tags": ""
+  },
+  {
+    "id": 84,
+    "name": "Suculentas",
+    "tags": ""
+  },
+  {
+    "id": 85,
+    "name": "Nene o nena",
+    "tags": ""
+  },
+  {
+    "id": 86,
+    "name": "Madre e hijo (Día de la madre)",
+    "tags": ""
+  },
+  {
+    "id": 87,
+    "name": "Elefantes - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 88,
+    "name": "Elefantes - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 89,
+    "name": "Bebé - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 90,
+    "name": "Bebé - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 91,
+    "name": "Nubecitas enamoradas / Nubes",
+    "tags": ""
+  },
+  {
+    "id": 92,
+    "name": "Bailarina",
+    "tags": ""
+  },
+  {
+    "id": 93,
+    "name": "Nenas",
+    "tags": ""
+  },
+  {
+    "id": 94,
+    "name": "Coronas y corazones - Simples",
+    "tags": ""
+  },
+  {
+    "id": 95,
+    "name": "Coronas y estrellas",
+    "tags": ""
+  },
+  {
+    "id": 96,
+    "name": "Moños y corazones",
+    "tags": ""
+  },
+  {
+    "id": 97,
+    "name": "Rosas",
+    "tags": ""
+  },
+  {
+    "id": 98,
+    "name": "Corazones - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 99,
+    "name": "Corazones - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 100,
+    "name": "Corazones - Modelo 3",
+    "tags": ""
+  },
+  {
+    "id": 101,
+    "name": "Corazones - Modelo 4",
+    "tags": ""
+  },
+  {
+    "id": 102,
+    "name": "Corazones - Modelo 5",
+    "tags": ""
+  },
+  {
+    "id": 103,
+    "name": "Corazones - Modelo 6",
+    "tags": ""
+  },
+  {
+    "id": 104,
+    "name": "Corazones - Modelo 7",
+    "tags": ""
+  },
+  {
+    "id": 105,
+    "name": "Corazones - Modelo 8",
+    "tags": ""
+  },
+  {
+    "id": 106,
+    "name": "Mix pastel - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 107,
+    "name": "Mix pastel - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 108,
+    "name": "Estrellas - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 109,
+    "name": "Estrellas - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 110,
+    "name": "Estrellas - Modelo 3 (TikTok)",
+    "tags": ""
+  },
+  {
+    "id": 111,
+    "name": "Estrellas - Modelo 4",
+    "tags": ""
+  },
+  {
+    "id": 112,
+    "name": "Estrellas - Modelo 5",
+    "tags": ""
+  },
+  {
+    "id": 113,
+    "name": "Estrellas - Modelo 6",
+    "tags": ""
+  },
+  {
+    "id": 114,
+    "name": "Rods",
+    "tags": ""
+  },
+  {
+    "id": 115,
+    "name": "Glamour - Sticks",
+    "tags": ""
+  },
+  {
+    "id": 116,
+    "name": "Glamour - Corazones",
+    "tags": ""
+  },
+  {
+    "id": 117,
+    "name": "Glamour - Gemas",
+    "tags": ""
+  },
+  {
+    "id": 118,
+    "name": "Glamour - Diamantes y corazones",
+    "tags": ""
+  },
+  {
+    "id": 119,
+    "name": "Glamour - Corazones y sticks",
+    "tags": ""
+  },
+  {
+    "id": 120,
+    "name": "Perlas bañadas en chocolate - Naranja",
+    "tags": ""
+  },
+  {
+    "id": 121,
+    "name": "Perlas bañadas en chocolate - Grafito",
+    "tags": ""
+  },
+  {
+    "id": 122,
+    "name": "Perlas bañadas en chocolate - Plata",
+    "tags": ""
+  },
+  {
+    "id": 123,
+    "name": "Perlas blandas - Modelo 1",
+    "tags": ""
+  },
+  {
+    "id": 124,
+    "name": "Perlas blandas - Modelo 2",
+    "tags": ""
+  },
+  {
+    "id": 125,
+    "name": "Perlas blandas - Modelo 3",
+    "tags": ""
+  },
+  {
+    "id": 126,
+    "name": "Perlas blandas - Modelo 4",
+    "tags": ""
   }
 ]
