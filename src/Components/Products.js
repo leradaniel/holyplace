@@ -63,7 +63,6 @@ const Products = () => {
   const getTotalPages = () => {
     let pagesNumber = Math.ceil(products.length / totalProductsPerPage);
     pagesNumber > 1 ? disablePages=false : disablePages=true;
-    console.log(disablePages)
     return pagesNumber;
   };
 
@@ -94,13 +93,6 @@ const Products = () => {
     <>
       <h1>Productos</h1>
       <Filter setActualPage={setActualPage} />
-
-      <Paginacion
-        page={actualPage}
-        totalPages={getTotalPages()}
-        onChange={(page) => setActualPage(page)}
-        disabled={disablePages}
-      />
 
       <div className="dropdown">
         <button
@@ -160,6 +152,13 @@ const Products = () => {
         </ul>
       </div>
       <div className="card-deck">{productsContainer}</div>
+
+      <Paginacion
+        page={actualPage}
+        totalPages={getTotalPages()}
+        onChange={(page) => setActualPage(page)}
+        disabled={disablePages}
+      />
     </>
   );
 };

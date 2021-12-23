@@ -13,7 +13,8 @@ export const FilterItem = ({ name, id, setActualPage}) => {
   let filterRef = filters[id - 1];
   
   // Según la id que se clickea, se activa/desactiva un filtro:
-  function handleClick(cb) {
+  function handleClick(e) {
+    e.stopPropagation();
     // Para no mutar el estado, hay que modificarlo en un array nuevo:
     let newFilters = [...filters];
     newFilters[id - 1] = !newFilters[id - 1];
@@ -29,10 +30,17 @@ export const FilterItem = ({ name, id, setActualPage}) => {
 
   return (
     <>
-      <label>
+      {/* <label>
         <input type="checkbox" onChange={handleClick} checked={checked} />
         {name}
-      </label>
+      </label> */}
+          <li>
+      <button
+        className={"dropdown-item"+ (checked === true ? " active" : "")} type="button" onClick={handleClick}
+      >
+        {name}
+      </button>
+    </li>    
     </>
   );
 };

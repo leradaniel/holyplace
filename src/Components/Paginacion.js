@@ -7,7 +7,6 @@ export const Paginacion = ({ page, totalPages, onChange, disabled }) => {
       let realPage = i + 1;
       pages.push(
         <button
-          
           key={i}
           onClick={() => onChange(realPage)}
           className={"btn btn-primary" + (page === realPage ? " active" : "")}
@@ -21,11 +20,11 @@ export const Paginacion = ({ page, totalPages, onChange, disabled }) => {
 
   if (disabled === false) {
     return (
-      <div disabled={disabled}>
-        <span>
-          Página {page} de {totalPages}:
-        </span>
+      <div className="pages-bottom">
         {getPages()}
+        <div>
+          Página {page} de {totalPages}:
+        </div>
       </div>
     );
   } else {

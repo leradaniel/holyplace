@@ -2,141 +2,169 @@
   {
     "id": 1,
     "name": "Amarillo",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 2,
     "name": "Azul",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 3,
     "name": "Blanco",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 4,
     "name": "Bordó",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 5,
     "name": "Celeste",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 6,
     "name": "Dorado",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 7,
     "name": "Gris",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 8,
     "name": "Marrón",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 9,
     "name": "Naranja",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 10,
     "name": "Negro",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 11,
     "name": "Plateado",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 12,
     "name": "Rojo",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 13,
     "name": "Rosa",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 14,
     "name": "Verde",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 15,
     "name": "Violeta",
-    "position": 0
+    "position": 0,
+    "type": 1
   },
   {
     "id": 16,
     "name": "Mixes",
-    "position": 0
+    "position": 0,
+    "type": 2
   },
   {
     "id": 17,
     "name": "Formas grandes",
-    "position": 0
+    "position": 0,
+    "type": 2
   },
   {
     "id": 18,
     "name": "Animales",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 19,
     "name": "Deportes",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 20,
     "name": "Disney",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 21,
     "name": "Infantiles",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 22,
     "name": "Juegos",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 23,
     "name": "Ocasiones especiales",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 24,
     "name": "Oficios",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 25,
     "name": "Pelis / Series",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 26,
     "name": "Plantas",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 27,
     "name": "Superhéroes",
-    "position": 0
+    "position": 0,
+    "type": 3
   },
   {
     "id": 28,
     "name": "Temáticos",
-    "position": 0
+    "position": 0,
+    "type": 3
   }
 ]
