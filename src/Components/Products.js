@@ -104,7 +104,7 @@ const Products = () => {
 
       <div className="dropdown">
         <button
-          className="btn btn-secondary dropdown-toggle"
+          className="btn btn-primary dropdown-toggle"
           type="button"
           id="dropdownMenu2"
           data-bs-toggle="dropdown"
