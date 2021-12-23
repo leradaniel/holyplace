@@ -9,9 +9,10 @@
   margin-bottom: 10px;
   margin-right: 10px;
   overflow: hidden;
-  width: 30%;
+  width: 284px;
+  height: 304px;
   padding: 10px;
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .product-image{

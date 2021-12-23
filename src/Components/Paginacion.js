@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const Paginacion = ({ page, totalPages, onChange }) => {
+export const Paginacion = ({ page, totalPages, onChange, disabled }) => {
+  //const [disabled, setDisabled] = useState(true);
 
   const getPages = () => {
     const pages = [];
@@ -20,19 +21,23 @@ export const Paginacion = ({ page, totalPages, onChange }) => {
     return pages;
   };
 
+if (disabled === false)
+{
   return (
-    // <>
-    //   Página {page + 1} de {totalPages}
-    //   {getPages()}
-    // </>
-    <div className="topbar-filter">
-    <div className="pagination2">
+    
+    <div disabled={disabled}>
       <span>
         Página {page} de {totalPages}:
       </span>
       {/* Esto llama a la función que devuelve los links de las páginas y lo muestra: */}
       {getPages()}
     </div>
-  </div>
   );
+}
+else
+{
+  return<></>
+}
+
+  
 };

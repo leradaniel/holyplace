@@ -8,7 +8,8 @@ import { Paginacion } from "./Paginacion";
 const Products = () => {
   // Se accede a la información del contexto:
   const { filters } = useContext(FiltersContext);
-
+  // Se indica si hay que mostrar la numeración de páginas
+  let disablePages = false
   // Estado con las páginas:
   const [actualPage, setActualPage] = useState(1);
 
@@ -60,7 +61,10 @@ const Products = () => {
   let products = getProducts(ProductsJson);
 
   const getTotalPages = () => {
-    return Math.ceil(products.length / totalProductsPerPage);
+    let pagesNumber = Math.ceil(products.length / totalProductsPerPage);
+    pagesNumber > 1 ? disablePages=false : disablePages=true;
+    console.log(disablePages)
+    return pagesNumber;
   };
 
   let prodcutsPerPage = products.slice(
@@ -81,24 +85,81 @@ const Products = () => {
     );
   });
 
+  const changeProductsPerPage = (maxProducts) => {
+    setTotalProductsPerPage(maxProducts);
+    setActualPage(1);
+  };
+
   return (
     <>
       <h1>Productos</h1>
+      <Filter setActualPage={setActualPage} />
+
       <Paginacion
         page={actualPage}
         totalPages={getTotalPages()}
         onChange={(page) => setActualPage(page)}
+        disabled={disablePages}
       />
-      <Filter setActualPage={setActualPage} />
-      <button
-        onClick={() => {
-          setTotalProductsPerPage(18);
-          setActualPage(1);
-        }}
-      >
-        Mostrar 9 en vez de 3
-      </button>
-      {productsContainer}
+
+      <div className="dropdown">
+        <button
+          className="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenu2"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Productos por página: {totalProductsPerPage}
+        </button>
+        <ul className="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li>
+            <button
+              className="dropdown-item"
+              type="button"
+              onClick={() => {
+                changeProductsPerPage(9);
+              }}
+            >
+              9
+            </button>
+          </li>
+          <li>
+            <button
+              className="dropdown-item"
+              type="button"
+              onClick={() => {
+                changeProductsPerPage(18);
+              }}
+            >
+              18
+            </button>
+          </li>
+          <li>
+            <button
+              className="dropdown-item"
+              type="button"
+              onClick={() => {
+                changeProductsPerPage(27);
+              }}
+            >
+              27
+            </button>
+          </li>
+          <li>
+            <button
+              className="dropdown-item"
+              type="button"
+              onClick={() => {
+                changeProductsPerPage(36);
+              }}
+            >
+              36
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div className="card-deck">{productsContainer}</div>
     </>
   );
 };
