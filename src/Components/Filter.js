@@ -79,7 +79,7 @@ export const Filter = ({ setActualPage }) => {
       {/* <form>{filtersContainer}</form>; */}
       {filtersWrapper}
 
-      <button className="btn btn-primary" onClick={resetFilters}>
+      <button className="btn btn-danger" onClick={resetFilters}>
         Reiniciar filtros
       </button>
     </>

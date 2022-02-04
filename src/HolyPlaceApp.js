@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { FiltersContext } from "./Components/FiltersContext";
 import Navbar from "./Components/Navbar";
 import Products from "./Components/Products";
+import Maintenance from "./Components/Maintenance";
 import TagsJson from "./data/tags.json";
 
 const HolyPlaceApp = () => {
@@ -26,7 +27,8 @@ const HolyPlaceApp = () => {
           setFilters,
         }}
       >
-        <Products />
+        <Maintenance />
+        {/* <Products /> */}
       </FiltersContext.Provider>
     </>
   );
