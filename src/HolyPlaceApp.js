@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { FiltersContext } from "./Components/FiltersContext";
 import Navbar from "./Components/Navbar";
 import Products from "./Components/Products";
@@ -16,7 +16,13 @@ const HolyPlaceApp = () => {
   // Estado para compartir información
   const [filters, setFilters] = useState(initFilters);
   //console.log(filters);
-
+  const loadMaintenance = (active) => {
+    if (active) {
+      return <Maintenance />;
+    } else {
+      return <Products />;
+    }
+  };
   return (
     <>
       <Navbar />
@@ -27,8 +33,9 @@ const HolyPlaceApp = () => {
           setFilters,
         }}
       >
-        <Maintenance />
-        {/* <Products /> */}
+        {/* True para activar la pagina en mantenimiento
+        False para cargar los productos */}
+        {loadMaintenance(true)}
       </FiltersContext.Provider>
     </>
   );
